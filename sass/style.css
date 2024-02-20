@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+p span {
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+}
+
+.section-title {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 50px 0px;
+}
+.section-title h1 {
+  font-size: 2rem;
+  padding: 10px 0px;
+}
+.section-title p {
+  font-size: 1.2rem;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 40px;
+  gap: 2rem;
+}
+section .col-70 {
+  width: 70%;
+}
+section .col-70 .box-1 {
+  background-color: #fff;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 5px #000;
+}
+section .col-70 .box-1 img {
+  width: 100%;
+}
+section .col-70 .box-1 .texts {
+  font-family: sans-serif;
+  padding: 0px 20px;
+}
+section .col-70 .box-1 .texts h1 {
+  font-size: 2rem;
+  padding: 20px 0px;
+}
+section .col-70 .box-1 .texts p {
+  font-size: 1.2rem;
+}
+section .col-70 .box-1 .texts p b {
+  color: #666;
+}
+section .col-70 .box-1 .texts .paragrap {
+  font-size: 0.9rem;
+  padding: 10px 0px;
+}
+section .col-70 .btn {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section .col-70 .btn button {
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 0.6px solid #000;
+}
+section .col-70 .btn button:hover {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+section .col-70 .btn p {
+  padding-right: 17px;
+}
+section .col-70 .btn p span {
+  border-radius: 46%;
+}
+section .col-30 {
+  width: 30%;
+  gap: 2rem;
+}
+section .col-30 .box-2 {
+  background-color: #fff;
+  box-shadow: 1px 1px 5px #000000;
+}
+section .col-30 .box-2 img {
+  width: 100%;
+}
+section .col-30 .box-2 .texts {
+  font-family: sans-serif;
+  padding: 20px 10px;
+}
+section .col-30 .box-2 h1 {
+  padding: 10px 0px;
+}
+section .col-30 .el-1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  background-color: #fff;
+  width: 100%;
+}
+section .col-30 .el-1 h1 {
+  background-color: rgba(51, 51, 51, 0.4117647059);
+  font-size: 1.9rem;
+  padding: 20px;
+}
+section .col-30 .el-1 .inel {
+  display: flex;
+  padding: 10px;
+}
+section .col-30 .el-1 .inel img {
+  width: 20%;
+}
+section .col-30 .el-1 .inel div span {
+  font-size: 1.3rem;
+}
+section .col-30 .el-1 .inel div p {
+  padding: 5px;
+}
+section .col-30 .el-1 .inel:hover {
+  background-color: rgba(51, 51, 51, 0.4117647059);
+}
+section .col-30 .box-3 {
+  margin-top: 30px;
+  background-color: #fff;
+  text-transform: capitalize;
+}
+section .col-30 .box-3 h1 {
+  background-color: rgba(51, 51, 51, 0.4117647059);
+  font-size: 1.9rem;
+  padding: 20px;
+}
+section .col-30 .box-3 div {
+  font-size: 0.9rem;
+  display: flex;
+  padding: 10px;
+  gap: 0.2rem;
+}
+section .col-30 .box-3 div b {
+  background-color: #000;
+  color: #fff;
+  padding: 2px;
+}
+section .col-30 .box-3 div p {
+  background-color: rgba(51, 51, 51, 0.4117647059);
+  padding: 5px;
+}
+@media screen and (max-width: 1024px) {
+  section {
+    flex-direction: column;
+    margin: 0px 45px;
+    gap: 0.8rem;
+    width: 100%;
+  }
+  section .col-70 {
+    width: 85%;
+  }
+  section .col-30 {
+    width: 85%;
+  }
+  section .col-30 .el-1 #inel {
+    display: none;
+  }
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 2rem;
+  padding: 20px;
+}
+footer div {
+  display: flex;
+  padding: 20px;
+  gap: 1.5rem;
+}
+footer div .button1 {
+  background-color: transparent;
+  border: 2px solid #000;
+}
+footer div .button1:hover {
+  cursor: not-allowed;
+}
+footer div button {
+  background-color: #000;
+  padding: 10px;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 0.6px solid #000;
+}
+footer div button:hover {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
